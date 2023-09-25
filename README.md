@@ -26,7 +26,7 @@ Programação Orientada a Objeto é o ponto mais importante desta seção, OOP �
 * <a href="exercicesClass69/">Aula 69</a>
 * <a href="exercicesClass72/">Aula 72</a>
 
-## Section 9
+## Seção 9
 Esta sessão é uma continuação da sessão anterior, adentrando mais sobre os conceitos relacionados ao OOP, primeiramente inserindo os construtores, que são formas que criar um objeto, solicitando ou não parâmetros, ainda dentro deste tema é possível  determinar o tipo de acesso a cada parâmetro e função sendo eles o **private**, **public** e **protected**.
 
 | MODIFICADOR 	| CLASS 	| PACKAGE 	| SUBCLASS 	| DIFFERENT CLASS 	|
@@ -38,13 +38,72 @@ Esta sessão é uma continuação da sessão anterior, adentrando mais sobre os 
 **Exercicios:**
 * <a href="exercicesClass81/">Aula 81</a>
 
+## Seção 10
+Nesta seção são apresentados os conceitos **Array**, **Lists**, **For Each**, **Wrapper Classes** e **Matriz**, conceitos esses muito utilizados no desenvolvimento **Back-End**.
+
+Os Array são conjuntos de listas com limites, ou seja, é necessário determinar seu tipo e tamanho logo no início, limitando sua usabilidade. Sintax: `dataType [] variableName = new dataType[limit];`
+
+Lists são introduzidas para tirar essa limitação dos Arrays, mas a classe principal não pode ser instanciada, por este motivo são utilizadas suas sub-classes tais como **ArrayList**, **LinkedList** entre outras. Sintax: `List <Class> variableName = new ArrayList<>();`
+
+ForEach um novo laço de repetição, com uma sintax super simples, na qual é possível percorrer um Array ou uma List.
+
+Exemplo:
+```
+import java.util.ArrayList;
+import java.util.List;
+
+public class ForEachExample {
+
+  public static void main (String args []){
+    List <String> list = new ArrayList<>();
+    list.add("Maria");
+    list.add("Paula");
+    list.add("Brenda");
+    list.add("Lorena");
+    
+    for (String x: list) {
+      System.out.println(x);
+    }
+  }
+}
+```
+**Output:**
+```
+Maria
+Paula
+Brenda
+Lorena
+```
+
+Wrapper Classes são formas de usar tipos primitivos (double, int, boolean etc) como objetos, a vantagem de usar essas classes é poder utilizar as funções do tipo primitivo com as funções de um objeto. Por este motivo as Strings tem bastante funções, não são tipos primitivos, sendo assim sua classe pode ter métodos que facilitam a vida do programador.
+
+| Primite Data Type 	| Wrapper Class 	|
+|-------------------	|---------------	|
+| byte              	| Byte          	|
+| short             	| Short         	|
+| int               	| Integer       	|
+| long              	| Long          	|
+| float             	| Float         	|
+| double            	| Double        	|
+| boolean           	| Boolean       	|
+| char              	| Character     	|
+
+
+Matrix, por fim, mas não menos importante o conceito de Matrix é introduzido, sendo este um **Array bi-dimensional**, ou seja, com colunas e linhas. Sintax: `variableType [][] variableName = new variableType [][]`
+
+**Exercicios:**
+* <a href="exercicesClass90/">Aula 90</a>
+* <a href="exercicesClass99/">Aula 99</a>
+* <a href="exercicesClass102/">Aula 102</a>
+* <a href="exercicesClass103/">Aula 103</a>
+
 ## Informações Gerais
 - Curso:
   - <a href="https://www.udemy.com/course/java-curso-completo/">Java COMPLETO 2023 Programação Orientada a Objetos +Projetos</a>
 - Professor:
   - <a href="https://www.linkedin.com/in/nelio-alves/">Nelio Alves</a>
 - Progresso:
-  - Aula atual: 83
+  - Aula atual: 103
   - Total de Aulas: 398
 - OBSERVAÇÕES:
   - Todas as pastas de exercícios tem um arquivo nomeado "Questions", onde encontram-se as perguntas dos exercicios.
