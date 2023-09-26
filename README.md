@@ -97,6 +97,15 @@ Matrix, por fim, mas não menos importante o conceito de Matrix é introduzido, 
 * <a href="exercicesClass102/">Aula 102</a>
 * <a href="exercicesClass103/">Aula 103</a>
 
+## Seção 11
+Seção dedicada exclusivamente ao tratamento de datas no Java, sendo uma das grandes mudanças que vieram junto com o Java 8, nesta seção foram introduzidos conceitos como LocalDate, LocalDateTime, DateTimeFormatter entre outros. Esta seção tem um destaque especial porque tratando-se do desenvolvimento de software, é compreensivo que nem sempre todos os participantes do projeto estejam no mesmo fuso.
+
+LocalDate é a classe mais simples, tratando apenas da data, sem incluir horário ou fuso horário.
+
+LocalDateTime util para quando é necessário tratar também do horário, incluindo horas, minutos, segundos milissegundos.
+
+Também é possível alterar a forma com que as datas, incluíndo horário são recebidos e exibidos utilizando o `DateTimeFormatter`, levando em consideração que o padrão é yyyy-MM-dd-HH-mm-ss - Ano com 4 digitos, mês com 2 digitos, dia com 2 digitos, T indica horário, hora com 2 dígitos, minutos com 2 dígitos e segundos com 2 dígitos.
+
 ## Informações Gerais
 - Curso:
   - <a href="https://www.udemy.com/course/java-curso-completo/">Java COMPLETO 2023 Programação Orientada a Objetos +Projetos</a>
