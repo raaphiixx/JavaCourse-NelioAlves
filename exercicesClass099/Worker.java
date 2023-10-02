@@ -1,4 +1,4 @@
-package exercicesClass99;
+package exercicesClass099;
 
 public class Worker {
 

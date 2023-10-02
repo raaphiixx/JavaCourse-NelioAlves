@@ -1,4 +1,4 @@
-package exercicesClass81.exercicesClass81Entites;
+package exercicesClass081.exercicesClass81Entites;
 
 public class BankAccount {
     private final int userAccount;

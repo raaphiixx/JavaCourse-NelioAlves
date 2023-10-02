@@ -1,6 +1,6 @@
-package exercicesClass81.exercicesClass81Application;
+package exercicesClass081.exercicesClass81Application;
 
-import exercicesClass81.exercicesClass81Entites.BankAccount;
+import exercicesClass081.exercicesClass81Entites.BankAccount;
 
 import java.util.Locale;
 import java.util.Scanner;

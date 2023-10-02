@@ -1,4 +1,4 @@
-package exercicesClass69;
+package exercicesClass069;
 
 public class Rectangle {
     public double width;

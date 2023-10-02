@@ -1,4 +1,4 @@
-package exercicesClass90;
+package exercicesClass090;
 
 import java.util.Locale;
 import java.util.Scanner;

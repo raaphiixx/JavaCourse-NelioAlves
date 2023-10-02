@@ -106,13 +106,35 @@ LocalDateTime util para quando é necessário tratar também do horário, inclui
 
 Também é possível alterar a forma com que as datas, incluíndo horário são recebidos e exibidos utilizando o `DateTimeFormatter`, levando em consideração que o padrão é yyyy-MM-dd-HH-mm-ss - Ano com 4 digitos, mês com 2 digitos, dia com 2 digitos, T indica horário, hora com 2 dígitos, minutos com 2 dígitos e segundos com 2 dígitos.
 
+## Seção 12
+Bonus de nivelamento sobre GIT, levando em consideração que este repositório já está no GITHUB, não é necessário comentar sobre esta seção.
+
+## Seção 13
+Esta seção adentra nas classes ENUM, que são classes especiais nos quais os valores já são pré-definidos, essas ENUM são muito utlizadas quando é necessário representar um conjunto fixo de constantes. Os valores são divididos por virgulas e representados em letras MAIUSCULAS.
+
+**REPRESENTAÇÃO:**
+```
+public enum Day {
+SUNDAY,
+MONDAY,
+TUESDAY,
+WEDNESDAY,
+THURSDAY,
+FRIDAY,
+SATURDAY
+}
+```
+**Exercicios:**
+* <a href="exercicesClass152/">Aula 152</a>
+
+
 ## Informações Gerais
 - Curso:
   - <a href="https://www.udemy.com/course/java-curso-completo/">Java COMPLETO 2023 Programação Orientada a Objetos +Projetos</a>
 - Professor:
   - <a href="https://www.linkedin.com/in/nelio-alves/">Nelio Alves</a>
 - Progresso:
-  - Aula atual: 103
+  - Aula atual: 153
   - Total de Aulas: 398
 - OBSERVAÇÕES:
   - Todas as pastas de exercícios tem um arquivo nomeado "Questions", onde encontram-se as perguntas dos exercicios.

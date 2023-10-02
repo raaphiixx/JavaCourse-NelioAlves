@@ -187,12 +187,18 @@ $RECYCLE.BIN/
 
 ### Directory ###
 \githubnelio/
-\src\examples/
-\src\examples2.entites/
+\examples/
+\examples2
 .idea/
-\src\exampleUnique/
-\src\exampleClass173/
-\src\exampleClass173\entites/
+\exampleUnique
+exampleClass151
+\exampleClass164
+\exampleClass173
+\exampleClass174
+\exampleClass175
+\exampleClass176
+\tryCatchClass
+HackerRank/
 
 ### Files ###
 BasicExample.java

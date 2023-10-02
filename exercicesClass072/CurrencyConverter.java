@@ -1,4 +1,4 @@
-package exercicesClass72;
+package exercicesClass072;
 
 public class CurrencyConverter {
 

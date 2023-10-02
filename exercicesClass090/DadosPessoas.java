@@ -1,4 +1,4 @@
-package exercicesClass90;
+package exercicesClass090;
 
 public class DadosPessoas {
     private double height;

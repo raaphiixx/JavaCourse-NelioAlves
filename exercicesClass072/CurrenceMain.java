@@ -1,4 +1,4 @@
-package exercicesClass72;
+package exercicesClass072;
 import java.util.Locale;
 import java.util.Scanner;
 
