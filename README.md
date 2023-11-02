@@ -125,8 +125,14 @@ SATURDAY
 }
 ```
 **Exercicios:**
-* <a href="exercicesClass152/">Aula 152</a>
+* <a href="exerciceClass152/">Aula 152</a>
 
+
+## Seção 14
+Nesta seção são abordados dois pilares muito importantes na OOP, que seriam a **Herança** e **Polimorfismo**, sendo estes conceitos complementares um ao outro. Primeiramente falando sobre o polimorfismo, este é um pilar voltado para o reuso de código (DRY - Don't repeat yourself), com a criação de classes mais abstratas que contenham métodos que serão necessários em várias classes, a partir deste conceito surge também o principio da herança, sendo esta uma classe "pai/mãe" de outras classes, nelas estão contidas métodos e caracteristicas inerentes para outras classes.
+
+* <a href="exerciceClass162/">Aula 162</a>
+* <a href="exerciceClass165/">Aula 165</a>
 
 ## Informações Gerais
 - Curso:
@@ -134,7 +140,7 @@ SATURDAY
 - Professor:
   - <a href="https://www.linkedin.com/in/nelio-alves/">Nelio Alves</a>
 - Progresso:
-  - Aula atual: 153
+  - Aula atual: 166
   - Total de Aulas: 398
 - OBSERVAÇÕES:
   - Todas as pastas de exercícios tem um arquivo nomeado "Questions", onde encontram-se as perguntas dos exercicios.
